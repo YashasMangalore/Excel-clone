@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+}
+
+#spreadsheet {
+  width: 80%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  border: 2px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+td {
+  border: 2px solid #ccc;
+  padding: 10px;
+  text-align: right;
+}
+
+/* input {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  text-align: center;
+} */
